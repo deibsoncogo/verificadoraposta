@@ -41,7 +41,24 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "import-helpers/order-imports": [
+			"warn",
+			{
+				"groups": [
+					"/react/",
+					"module",
+					["/router/", "/services/", "/repositories/", "/models/", "/database/", "/migrations/"],
+					["/config/", "/components/", "/utils/", "/hooks/", "/middlewares/", "/errors/"],
+					"/assets/",
+					"parent",
+					"sibling",
+					"/styles/"
+				],
+				"newlinesBetween": "always",
+				"alphabetize": { "order": "asc", "ignoreCase": true }
+			}
+		]
   },
   "settings": {
     "import/resolver": {
