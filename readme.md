@@ -2,7 +2,7 @@
 Este programa tem o intuito de analisar as apostas cadastradas e mostrar
 quandos pontos existe
 
-### Estas são algumas das funcionalidades que ele suporta
+#### Estas são algumas das funcionalidades que ele suporta
 1. O número mínimo de acertos pode ser configurado facilmente
 2. Também tem como definir para mostrar somente os acertos relevante
 3. A exclusão ou edição dos jogadores e apostas
@@ -20,4 +20,4 @@ Cada aposta pode ser vinculada a somente um jogador
 O método de bolão poderá ser implementado futuramente
 
 
-**_Comece com uma API simples e aos poucos a torne incrível_**
+###### **_Comece com uma API simples e aos poucos a torne incrível_**
